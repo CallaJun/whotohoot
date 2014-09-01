@@ -58,6 +58,23 @@ DENBIGH_C3 = [
     'Ariana Hall'
 ]
 
+#ERDMAN
+ERDMAN_HA = {
+    '1': 'Taryn Traughber',
+    '2': 'Grace Kim',
+    '3': 'Faatimah Jafiq'
+}
+
+ERDMAN_PM = [
+    'Blaire Broad',
+    'Noura Jaber'
+]
+
+ERDMAN_C = [
+    'Jasmine Rangel',
+    'Jess Bernal'
+]
+
 #PEMEAST
 PEMEAST_HA = {
     '1': 'Rasha Younes',
@@ -128,6 +145,7 @@ EMAILS = {
     'Ariana Hall': 'ahall03@brynmawr.edu',
     'Austen Hamilton': 'ahamilto01@brynmawr.edu',
     'Bara Almomani': 'balmomani@brynmawr.edu',
+    'Blaire Broad': 'bbroad@brynmawr.edu',
     'Bryce Lewis': 'bklewis@brynmawr.edu',
     'Callie Lopshire-Bratt': 'clopshireb@brynmawr.edu',
     'Carol Bowe': 'cbowe@brynmawr.edu',
@@ -137,11 +155,15 @@ EMAILS = {
     'Claire Craig': 'cacraig@brynmawr.edu',
     'Emily Drummond': 'edrummond@brynmawr.edu',
     'Erica Rice': 'earice@brynmawr.edu',
+    'Faatimah Jafiq': 'fjafiq@brynmawr.edu',
     'Glynn Siobhan': 'sglynn@brynmawr.edu',
     'Grace Baelen-King': 'ebaelenkin@brynmawr.edu',
+    'Grace Kim': 'gskim@brynmawr.edu',
     'Hannah Henderson-Charnow': 'hchenderso@brynmawr.edu',
     'Hannah Rifkin': 'hrifkin@brynmawr.edu',
     'Jane Rossman': 'jrossman@brynmawr.edu',
+    'Jasmine Rangel': 'jrangel@brynmawr.edu',
+    'Jess Bernal': 'jbernal@brynmawr.edu',
     'Jessica Sisco': 'jsisco@brynmawr.edu',
     'Kailina Mastroianni': 'kmastroian@brynmawr.edu',
     'Kalina Kostyszyn': 'kkostyszyn@brynmawr.edu',
@@ -153,6 +175,7 @@ EMAILS = {
     'Maritza Vazquez-Trejo': 'mvazqueztr@brynmawr.edu',
     'Maya Berrol-Young': 'mberrolyou@brynmawr.edu',
     'Ninghe Cai': 'ncai@brynmawr.edu',
+    'Noura Jaber': 'nbjaber@brynmawr.edu',
     'Odeymarys Garrido': 'ogarrido@brynmawr.edu',
     'Palak Bhandari': 'pbhandari@brynmawr.edu',
     'Phoebe Jordan': 'pejordan@brynmawr.edu',
@@ -163,6 +186,7 @@ EMAILS = {
     'Sophie Byvik': 'sbyvik@brynmawr.edu',
     'Sophia Dauria': 'sdauria@brynmawr.edu',
     'Stella Cai': 'ycai01@brynmawr.edu',
+    'Taryn Traughber': 'ttraughber@brynmawr.edu',
     'Priyanka Dutta': 'pdutta@brynmawr.edu',
     'Zoe Fisher': 'zfisher@brynmawr.edu'
 }
@@ -179,6 +203,7 @@ ROOMS = {
     'Ariana Hall': 'Denbigh 328',
     'Austen Hamilton': 'Brecon 404',
     'Bara Almomani': 'Denbigh 130',
+    'Blaire Broad': 'Erdman 110',
     'Bryce Lewis': 'Denbigh 125',
 	'Carol Bowe': 'Pem West 324',
     'Callie Lopshire-Bratt': 'Pem East 108',
@@ -188,11 +213,15 @@ ROOMS = {
     'Claire Craig': 'Brecon 209',
     'Emily Drummond': 'Pem East 105',
 	'Erica Rice': 'Pem West 206',
+    'Faatimah Jafiq': 'Erdman 322',
 	'Glynn Siobhan': 'Pem West 319',
     'Grace Baelen-King': 'Brecon 106',
+    'Grace Kim': 'Erdman 220',
     'Hannah Henderson-Charnow': 'Pem East 210',
     'Hannah Rifkin': 'Pem East 320',
 	'Jane Rossman': 'Pem West 103',
+    'Jasmine Rangel': 'Erdman 219',
+    'Jess Bernal': 'Erdman 224',
     'Jessica Sisco': 'Brecon 305',
 	'Kailina Mastroianni': 'Pem East 322',
     'Kalina Kostyszyn': 'Brecon 315',
@@ -204,6 +233,7 @@ ROOMS = {
     'Maritza Vazquez-Trejo': 'Denbigh 211',
     'Maya Berrol-Young': 'Pem West 217',
     'Ninghe Cai': 'Denbigh 126',
+    'Noura Jaber': 'Erdman 162',
     'Odeymarys Garrido': 'Denbigh 218',
     'Palak Bhandari': 'Pem West 204',
     'Phoebe Jordan': 'Brecon 103',
@@ -214,6 +244,7 @@ ROOMS = {
     'Sophie Byvik': 'Brecon 406',
     'Sophia Dauria': 'Pem East 222',
     'Stella Cai': 'Brecon 201',
+    'Taryn Traughber': 'Erdman 114',
     'Priyanka Dutta': 'Pem West 107',
     'Zoe Fisher': 'Denbigh 124'
 }
