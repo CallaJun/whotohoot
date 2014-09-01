@@ -165,20 +165,51 @@ PEMWEST_C3 = [
 	'Glynn Siobhan'
 ]
 
+#RADNOR
+RADNOR_HA = {
+    '1': 'Lauren Buckheit',
+    '2': 'Amanda Guadalupe',
+    '3': 'Molly MacDougall'
+}
+
+
+RADNOR_PM = [
+    'Alex Francendese'
+]
+
+RADNOR_C1 = [
+]
+
+RADNOR_C2 = [
+    'Abbie Sullivan',
+    'Bridget Murray'
+]
+
+RADNOR_C3 = [
+    'Ajiboye Tosin',
+    'Alexa Gjonca'
+]
+
 EMAILS = {
     'Abigail Hoyt': 'ahoyt@brynmawr.edu',
+    'Abbie Sullivan': 'asulliva01@brynmawr.edu',
     'Abby Crum': 'acrum@brynmawr.edu',
 	'Ahmad Shamial': 'siahmad@brynmawr.edu',
+    'Ajiboye Tosin': 'oajiboye@brynmawr.edu',
 	'Akthar Hazara': 'hakthar@brynmawr.edu',
     'Alena Klindziuk': 'aklindziuk@brynmawr.edu',
+    'Alexa Gjonca': 'agjonca@brynmawr.edu',
+    'Alex Francendese': 'afrancende@brynmawr.edu',
     'Alisha Pandit': 'apandit@brynmawr.edu',
     'Alison Robins': 'arobins@brynmawr.edu',
+    'Amanda Guadalupe': 'aguadalupe@brynmawr.edu',
     'Amy Xu': 'axu@brynmawr.edu',
     'Anna Sargeant': 'asargeant@brynmawr.edu',
     'Ariana Hall': 'ahall03@brynmawr.edu',
     'Austen Hamilton': 'ahamilto01@brynmawr.edu',
     'Bara Almomani': 'balmomani@brynmawr.edu',
     'Blaire Broad': 'bbroad@brynmawr.edu',
+    'Bridget Murray': 'bmurray02@brynmawr.edu',
     'Bryce Lewis': 'bklewis@brynmawr.edu',
     'Callie Lopshire-Bratt': 'clopshireb@brynmawr.edu',
     'Carol Bowe': 'cbowe@brynmawr.edu',
@@ -206,6 +237,7 @@ EMAILS = {
     'Kalina Kostyszyn': 'kkostyszyn@brynmawr.edu',
     'Katie Guye': 'kguye@brynmawr.edu',
     'Kyra Sagal': 'ksagal@brynmawr.edu',
+    'Lauren Buckheit': 'lbuckheit@brynmawr.edu',
     'Libby Wilson': 'ewwilson@brynmawr.edu',
     'Makeda Warde': 'mwarde@brynmawr.edu',
     'Marcia Manzone': 'mmanzone@brynmawr.edu',
@@ -213,6 +245,7 @@ EMAILS = {
     'Maritza Vazquez-Trejo': 'mvazqueztr@brynmawr.edu',
     'Maya Berrol-Young': 'mberrolyou@brynmawr.edu',
     'Mimi Gordor': 'mgordor@brynmawr.edu',
+    'Molly MacDougall': 'mmacdougal@brynmawr.edu',
     'Nancy Li': 'yli02@brynmawr.edu',
     'Ninghe Cai': 'ncai@brynmawr.edu',
     'Noura Jaber': 'nbjaber@brynmawr.edu',
@@ -237,18 +270,24 @@ EMAILS = {
 
 ROOMS = {
     'Abigail Hoyt': 'Pem East 116',
+    'Abbie Sullivan': 'Radnor 202',
     'Abby Crum': 'Pem East 320',
 	'Ahmad Shamial': 'Pem West 323',
+    'Ajiboye Tosin': 'Radnor 303',
 	'Akthar Hazara': 'Pem West 207',
     'Alena Klindziuk': 'Brecon 214',
+    'Alex Francendese': 'Radnor 123',
+    'Alexa Gjonca': 'Radnor 307',
     'Alisha Pandit': 'Denbigh 210',
     'Alison Robins': 'Merion 203',
+    'Amanda Guadalupe': 'Radnor 212',
     'Amy Xu': 'Denbigh 110',
 	'Anna Sargeant': 'Pem West 115',
     'Ariana Hall': 'Denbigh 328',
     'Austen Hamilton': 'Brecon 404',
     'Bara Almomani': 'Denbigh 130',
     'Blaire Broad': 'Erdman 110',
+    'Bridget Murray': 'Radnor 215',
     'Bryce Lewis': 'Denbigh 125',
 	'Carol Bowe': 'Pem West 324',
     'Callie Lopshire-Bratt': 'Pem East 108',
@@ -276,7 +315,9 @@ ROOMS = {
     'Kalina Kostyszyn': 'Brecon 315',
     'Katie Guye': 'Pem West 219',
     'Kyra Sagal': 'Denbigh 319',
+    'Lauren Buckheit': 'Radnor 107',
     'Libby Wilson': 'Brecon 410',
+    'Molly MacDougall': 'Radnor 308',
     'Makeda Warde': 'Merion 113',
     'Marcia Manzone': 'Brecon 409',
     'Margaret Sumner-Moore': 'Pem East 103',
