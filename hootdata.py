@@ -75,6 +75,38 @@ ERDMAN_C = [
     'Jess Bernal'
 ]
 
+#MERION
+MERION_HA = {
+    '1': 'Rhett Richardson',
+    '2': 'Bae Kaeun',
+    '3': 'Shorouk Badir',
+    '4': 'Tianyuan Zhang'
+}
+
+MERION_PM = [
+    'Alison Robins',
+    'Nancy Li'
+]
+
+MERION_C1 = [
+    'Hydiya Abubakar',
+    'Makeda Warde'
+]
+
+MERION_C2 = [
+    'Alison Robins',
+    'Mimi Gordor'
+]
+
+MERION_C3 = [
+    'Jenille Scott',
+    'Shaina Robinson'
+]
+
+MERION_C4 = [
+    'Ellen Cohn'
+]
+
 #PEMEAST
 PEMEAST_HA = {
     '1': 'Rasha Younes',
@@ -140,6 +172,7 @@ EMAILS = {
 	'Akthar Hazara': 'hakthar@brynmawr.edu',
     'Alena Klindziuk': 'aklindziuk@brynmawr.edu',
     'Alisha Pandit': 'apandit@brynmawr.edu',
+    'Alison Robins': 'arobins@brynmawr.edu',
     'Amy Xu': 'axu@brynmawr.edu',
     'Anna Sargeant': 'asargeant@brynmawr.edu',
     'Ariana Hall': 'ahall03@brynmawr.edu',
@@ -153,6 +186,7 @@ EMAILS = {
     'Christina Ulowetz': 'culowetz@brynmawr.edu',
     'Chutong Zhu': 'czhu@brynmawr.edu',
     'Claire Craig': 'cacraig@brynmawr.edu',
+    'Ellen Cohn': 'ecohn@brynmawr.edu',
     'Emily Drummond': 'edrummond@brynmawr.edu',
     'Erica Rice': 'earice@brynmawr.edu',
     'Faatimah Jafiq': 'fjafiq@brynmawr.edu',
@@ -161,19 +195,25 @@ EMAILS = {
     'Grace Kim': 'gskim@brynmawr.edu',
     'Hannah Henderson-Charnow': 'hchenderso@brynmawr.edu',
     'Hannah Rifkin': 'hrifkin@brynmawr.edu',
+    'Hydiya Abubakar': 'habubakar@brynmawr.edu',
     'Jane Rossman': 'jrossman@brynmawr.edu',
     'Jasmine Rangel': 'jrangel@brynmawr.edu',
+    'Jenille Scott': 'jkscott@brynmawr.edu',
     'Jess Bernal': 'jbernal@brynmawr.edu',
     'Jessica Sisco': 'jsisco@brynmawr.edu',
+    'Kaeun Bae': 'kbae@brynmawr.edu',
     'Kailina Mastroianni': 'kmastroian@brynmawr.edu',
     'Kalina Kostyszyn': 'kkostyszyn@brynmawr.edu',
     'Katie Guye': 'kguye@brynmawr.edu',
     'Kyra Sagal': 'ksagal@brynmawr.edu',
     'Libby Wilson': 'ewwilson@brynmawr.edu',
+    'Makeda Warde': 'mwarde@brynmawr.edu',
     'Marcia Manzone': 'mmanzone@brynmawr.edu',
     'Margaret Sumner-Moore': 'msumnermoo@brynmawr.edu',
     'Maritza Vazquez-Trejo': 'mvazqueztr@brynmawr.edu',
     'Maya Berrol-Young': 'mberrolyou@brynmawr.edu',
+    'Mimi Gordor': 'mgordor@brynmawr.edu',
+    'Nancy Li': 'yli02@brynmawr.edu',
     'Ninghe Cai': 'ncai@brynmawr.edu',
     'Noura Jaber': 'nbjaber@brynmawr.edu',
     'Odeymarys Garrido': 'ogarrido@brynmawr.edu',
@@ -181,12 +221,16 @@ EMAILS = {
     'Phoebe Jordan': 'pejordan@brynmawr.edu',
     'Rachael Koone': 'rkoone@brynmawr.edu',
     'Rasha Younes': 'ryounes@brynmawr.edu',
+    'Rhett Richardson': 'merichards@brynmawr.edu',
+    'Shaina Robinson': 'srobinso99@brynmawr.edu',
+    'Shorouk Badir': 'sbadir@brynmawr.edu',
     'Sofia Chavez': 'schavez@brynmawr.edu',
     'Sophia Abbot': 'sabbot@brynmawr.edu',
     'Sophie Byvik': 'sbyvik@brynmawr.edu',
     'Sophia Dauria': 'sdauria@brynmawr.edu',
     'Stella Cai': 'ycai01@brynmawr.edu',
     'Taryn Traughber': 'ttraughber@brynmawr.edu',
+    'Tianyuan Zhang': 'tzhang01@brynmawr.edu',
     'Priyanka Dutta': 'pdutta@brynmawr.edu',
     'Zoe Fisher': 'zfisher@brynmawr.edu'
 }
@@ -198,6 +242,7 @@ ROOMS = {
 	'Akthar Hazara': 'Pem West 207',
     'Alena Klindziuk': 'Brecon 214',
     'Alisha Pandit': 'Denbigh 210',
+    'Alison Robins': 'Merion 203',
     'Amy Xu': 'Denbigh 110',
 	'Anna Sargeant': 'Pem West 115',
     'Ariana Hall': 'Denbigh 328',
@@ -211,6 +256,7 @@ ROOMS = {
     'Christina Ulowetz': 'Brecon 105',
     'Chutong Zhu': 'Brecon 306',
     'Claire Craig': 'Brecon 209',
+    'Ellen Cohn': 'Merion 405',
     'Emily Drummond': 'Pem East 105',
 	'Erica Rice': 'Pem West 206',
     'Faatimah Jafiq': 'Erdman 322',
@@ -219,19 +265,25 @@ ROOMS = {
     'Grace Kim': 'Erdman 220',
     'Hannah Henderson-Charnow': 'Pem East 210',
     'Hannah Rifkin': 'Pem East 320',
+    'Hydiya Abubakar': 'Merion 107',
 	'Jane Rossman': 'Pem West 103',
     'Jasmine Rangel': 'Erdman 219',
+    'Jenille Scott': 'Merion 303',
     'Jess Bernal': 'Erdman 224',
     'Jessica Sisco': 'Brecon 305',
+    'Kaeun Bae': 'Merion 219',
 	'Kailina Mastroianni': 'Pem East 322',
     'Kalina Kostyszyn': 'Brecon 315',
     'Katie Guye': 'Pem West 219',
     'Kyra Sagal': 'Denbigh 319',
     'Libby Wilson': 'Brecon 410',
+    'Makeda Warde': 'Merion 113',
     'Marcia Manzone': 'Brecon 409',
     'Margaret Sumner-Moore': 'Pem East 103',
     'Maritza Vazquez-Trejo': 'Denbigh 211',
     'Maya Berrol-Young': 'Pem West 217',
+    'Mimi Gordor': 'Merion 224',
+    'Nancy Li': 'Merion 203',
     'Ninghe Cai': 'Denbigh 126',
     'Noura Jaber': 'Erdman 162',
     'Odeymarys Garrido': 'Denbigh 218',
@@ -239,12 +291,16 @@ ROOMS = {
     'Phoebe Jordan': 'Brecon 103',
     'Rachael Koone': 'Pem West 114',
     'Rasha Younes': 'Pem East 120',
+    'Rhett Richardson': 'Merion 111',
+    'Shaina Robinson': 'Merion 324',
+    'Shorouk Badir': 'Merion 319',
     'Sofia Chavez': 'Pem East 219',
     'Sophia Abbot': 'Denbigh 308',
     'Sophie Byvik': 'Brecon 406',
     'Sophia Dauria': 'Pem East 222',
     'Stella Cai': 'Brecon 201',
     'Taryn Traughber': 'Erdman 114',
+    'Tianyuan Zhang': 'Merion 407',
     'Priyanka Dutta': 'Pem West 107',
     'Zoe Fisher': 'Denbigh 124'
 }
