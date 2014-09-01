@@ -164,6 +164,99 @@ class HootHandler(webapp2.RequestHandler):
         template_values['peermentorsemails'] = peermentorsemails
         for person in peermentors:
             peermentorsrooms.append(hootdata.ROOMS[person])
+    
+    #DENBIGH FIRST
+    elif self.request.get('dorm')=='Denbigh' and self.request.get('floor')=='1':
+        template_values['halladvisor'] = hootdata.DENBIGH_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.DENBIGH_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.DENBIGH_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.DENBIGH_C1)):
+            customspeople.append(hootdata.DENBIGH_C1[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.DENBIGH_PM)):
+            peermentors.append(hootdata.DENBIGH_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #DENBIGH SECOND
+    elif self.request.get('dorm')=='Denbigh' and self.request.get('floor')=='2':
+        template_values['halladvisor'] = hootdata.DENBIGH_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.DENBIGH_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.DENBIGH_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.DENBIGH_C2)):
+            customspeople.append(hootdata.DENBIGH_C2[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.DENBIGH_PM)):
+            peermentors.append(hootdata.DENBIGH_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #DENBIGH THIRD
+    elif self.request.get('dorm')=='Denbigh' and self.request.get('floor')=='3':
+        template_values['halladvisor'] = hootdata.DENBIGH_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.DENBIGH_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.DENBIGH_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.DENBIGH_C3)):
+            customspeople.append(hootdata.DENBIGH_C3[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.DENBIGH_PM)):
+            peermentors.append(hootdata.DENBIGH_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
 
     #PEMEAST FIRST
     elif self.request.get('dorm')=='Pembroke East' and self.request.get('floor')=='1':
