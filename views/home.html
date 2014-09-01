@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Who to hoot?</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<style>
+#logo2 {
+	margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<body id="main">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+		</div>
+	</nav>
+	<div class="col-md-4"></div>
+	<img id="logo2" src='http://i.imgur.com/iStMNti.png' height=200 />
+	<div class="form-group">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<form action="hoot">
+			Name:
+			    <input type="text" class="form-control" name="name"></label></p>
+			    <input type="hidden" name="name" value={{name}}>
+			Dorm:
+				<select class="form-control" name="dorm">
+					<option value="Pembroke West">Pembroke West</option>
+					<option value="Pembroke East">Pembroke East</option>
+				</select>
+			    <input type="hidden" name="dorm" value={{dorm}}>
+			Floor:
+				<select name="floor" class="form-control">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+			    <input type="hidden" name="floor" value={{floor}}>
+			<br><button type="submit" class="btn btn-default">Who to hoot?</button>
+		</form>
+	</div>
+	</div>
+</body>
+<script>
+</script>
+</html>

@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>Who to hoot?</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+	#accordion {
+		margin: 20px;
+	}
+</style>
+<body>
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-left"></div>
+		</div>
+	</nav>
+	    <div class="panel-group" id="accordion">
+	    	<h1>Hi, {{name}}! You live in {{dorm}} on Floor {{floor}}!</h1>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Dorm</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    Hall advisor: {{halladvisor}}
+                    	<ul>
+                    		<li><a href="mailto:{{halladvisoremail}}">{{halladvisoremail}}</a></li>
+                    		<li>{{halladvisorroom}}</li>
+                    	</ul>
+                    Customs people:
+                   	<ul>
+                   		{% for customsperson in customspeople %}
+                   		{% set customspersonloop = loop %}
+                        	<li>{{customsperson}}</li>
+                           		<ul>
+                             		<!--Custom person email-->
+                             		{% for customspersonemail in customspeopleemails %}
+                    	         		{% if loop.index == customspersonloop.index %}
+                    	         		<li><a href="mailto:{{ customspersonemail }}">{{ customspersonemail }}</a></li>
+                    	         		{% endif %}
+                             		{% endfor %}
+                             		<!--Custom person room-->
+                             		{% for customspersonroom in customspeoplerooms %}
+                    	         		{% if loop.index == customspersonloop.index %}
+                    	         		<li>{{ customspersonroom }}</li>
+                    	         		{% endif %}
+                             		{% endfor %}
+                             	</ul>
+                        {% endfor %}
+                    </ul>
+                    Peer mentors:
+                   	<ul>
+                   		{% for peermentor in peermentors %}
+                   		{% set peermentorloop = loop %}
+                        <li>{{peermentor}}</li>
+                          	<ul>
+                             	<!--Peer mentor email-->
+                            	{% for peermentoremail in peermentorsemails %}
+                    	       		{% if loop.index == peermentorloop.index %}
+                    	         	<li><a href="mailto:{{ peermentoremail }}">{{ peermentoremail }}</a></li>
+                    	         	{% endif %}
+                             	{% endfor %}
+                           		<!--Peer mentor room-->
+                           		{% for peermentorroom in peermentorsrooms %}
+                            		{% if loop.index == peermentorloop.index %}
+                  	         		<li>{{ peermentorroom }}</li>
+                   	         		{% endif %}
+                           		{% endfor %}
+                           	</ul>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Safety</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Campus Safety
+                    	<ul>
+                    		<li>Phone: (610)-526-7911</li>
+                    	</ul>
+                    Emergency
+                    	<ul>
+                    		<li>Phone: 911</li>
+                    	</ul>
+                    Title IX Coordinator: Stephanie Nixon
+                    	<ul>
+                    		<li>Email: titleix_coordinator@brynmawr.edu</li>
+                    		<li>Phone: 610-526-0301</li>
+                    	</ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Something else</a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    More stuff
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
