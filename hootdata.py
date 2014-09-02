@@ -78,7 +78,7 @@ ERDMAN_C = [
 #MERION
 MERION_HA = {
     '1': 'Rhett Richardson',
-    '2': 'Bae Kaeun',
+    '2': 'Kaeun Bae',
     '3': 'Shorouk Badir',
     '4': 'Tianyuan Zhang'
 }

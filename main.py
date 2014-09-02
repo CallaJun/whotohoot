@@ -39,7 +39,7 @@ class HootHandler(webapp2.RequestHandler):
     template_values = {'name' : self.request.get('name'),
     					'dorm' : self.request.get('dorm'),
                     	'floor' : self.request.get('floor'),
-                       }
+                    }
 
     #BRECON FIRST
     if self.request.get('dorm')=='Brecon' and self.request.get('floor')=='1':
