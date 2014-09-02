@@ -754,6 +754,192 @@ class HootHandler(webapp2.RequestHandler):
         for person in peermentors:
             peermentorsrooms.append(hootdata.ROOMS[person])
 
+    #RHOADSSOUTH FIRST
+    elif self.request.get('dorm')=='Rhoads South' and self.request.get('floor')=='1':
+        template_values['halladvisor'] = hootdata.ROCK_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.RHOADSSOUTH_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.RHOADSSOUTH_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.RHOADSSOUTH_C1)):
+            customspeople.append(hootdata.RHOADSSOUTH_C1[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.RHOADSSOUTH_PM)):
+            peermentors.append(hootdata.ROCK_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #RHOADSSOUTH SECOND
+    elif self.request.get('dorm')=='Rhoads South' and self.request.get('floor')=='2':
+        template_values['halladvisor'] = hootdata.ROCK_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.RHOADSSOUTH_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.RHOADSSOUTH_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.RHOADSSOUTH_C2)):
+            customspeople.append(hootdata.RHOADSSOUTH_C2[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.RHOADSSOUTH_PM)):
+            peermentors.append(hootdata.ROCK_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #RHOADSSOUTH THIRD
+    elif self.request.get('dorm')=='Rhoads South' and self.request.get('floor')=='3':
+        template_values['halladvisor'] = hootdata.ROCK_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.RHOADSSOUTH_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.RHOADSSOUTH_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.RHOADSSOUTH_C3)):
+            customspeople.append(hootdata.RHOADSSOUTH_C3[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.RHOADSSOUTH_PM)):
+            peermentors.append(hootdata.ROCK_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #ROCK FIRST
+    elif self.request.get('dorm')=='Rockefeller' and self.request.get('floor')=='1':
+        template_values['halladvisor'] = hootdata.ROCK_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.ROCK_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.ROCK_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.ROCK_C1)):
+            customspeople.append(hootdata.ROCK_C1[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.ROCK_PM)):
+            peermentors.append(hootdata.ROCK_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #ROCK SECOND
+    elif self.request.get('dorm')=='Rockefeller' and self.request.get('floor')=='2':
+        template_values['halladvisor'] = hootdata.ROCK_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.ROCK_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.ROCK_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.ROCK_C2)):
+            customspeople.append(hootdata.ROCK_C2[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.ROCK_PM)):
+            peermentors.append(hootdata.ROCK_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
+    #ROCK THIRD
+    elif self.request.get('dorm')=='Rockefeller' and self.request.get('floor')=='3':
+        template_values['halladvisor'] = hootdata.ROCK_HA[self.request.get('floor')]
+        template_values['halladvisoremail'] = hootdata.EMAILS[hootdata.ROCK_HA[self.request.get('floor')]]
+        template_values['halladvisorroom'] = hootdata.ROOMS[hootdata.ROCK_HA[self.request.get('floor')]]
+        customspeople = []
+        customspeopleemails = []
+        customspeoplerooms = []
+        peermentors = []
+        peermentorsemails = []
+        peermentorsrooms = []
+        #Custom people
+        for person in range(0,len(hootdata.ROCK_C3)):
+            customspeople.append(hootdata.ROCK_C3[person])
+        template_values['customspeople'] = customspeople
+        for person in customspeople:
+            customspeopleemails.append(hootdata.EMAILS[person])
+        template_values['customspeopleemails'] = customspeopleemails
+        for person in customspeople:
+            customspeoplerooms.append(hootdata.ROOMS[person])
+        template_values['customspeoplerooms'] = customspeoplerooms
+        #Peer mentors
+        for person in range(0,len(hootdata.ROCK_PM)):
+            peermentors.append(hootdata.ROCK_PM[person])
+        template_values['peermentors'] = peermentors
+        for person in peermentors:
+            peermentorsemails.append(hootdata.EMAILS[person])
+        template_values['peermentorsemails'] = peermentorsemails
+        for person in peermentors:
+            peermentorsrooms.append(hootdata.ROOMS[person])
+
         template_values['peermentorsrooms'] = peermentorsrooms
     template = jinja_environment.get_template('views/hoot.html')
     self.response.out.write(template.render(template_values))
