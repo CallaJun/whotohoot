@@ -36,10 +36,14 @@ class HomeHandler(webapp2.RequestHandler):
 
 class HootHandler(webapp2.RequestHandler):
   def get(self):  
-    template_values = {'name' : self.request.get('name'),
+    template_values = {#'name' : self.request.get('name'),
     					'dorm' : self.request.get('dorm'),
                     	'floor' : self.request.get('floor'),
                     }
+    if self.request.get('name')=='':
+        template_values['name'] = 'Mawrter'
+    else:
+        template_values['name'] = self.request.get('name');
 
     #BRECON FIRST
     if self.request.get('dorm')=='Brecon' and self.request.get('floor')=='1':
