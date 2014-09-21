@@ -21,8 +21,7 @@ class HomeHandler(webapp2.RequestHandler):
 
 class HootHandler(webapp2.RequestHandler):
   def get(self):  
-    template_values = {#'name' : self.request.get('name'),
-    					'dorm' : self.request.get('dorm'),
+    template_values = {'dorm' : self.request.get('dorm'),
                     	'floor' : self.request.get('floor'),
                     }
     if self.request.get('name')=='':
