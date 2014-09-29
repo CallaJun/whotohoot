@@ -126,6 +126,28 @@
                 </div>
             </div>
         </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Shopping</a>
+                </h4>
+            </div>
+            <!--<div id="collapseFour" class="panel-collapse collapse">
+                <div class="panel-body">
+                Best Buy
+                    {% for storeid in storeids %}
+                    {% set storeidsloop = loop %}
+                        <li><a href="http://stores.bestbuy.com/{{storeid}}/">
+                        {% for storename in storenames %}
+                            {% if loop.index == storeidsloop.index %}
+                                        {{ storename }}
+                            {% endif %}
+                        {% endfor %}
+                        </a></li>
+                    {% endfor %}
+                </div>
+            </div>-->
+        </div>
     </div>
 </body>
 </html>
