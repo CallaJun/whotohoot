@@ -460,6 +460,7 @@ class HootHandler(webapp2.RequestHandler):
             peermentors.append(hootdata.ROCK_PM[person])
         template_values['peermentors'] = peermentors
 
+    #Adding customs people and peer mentors to data store
     for person in customspeople:
         customspeopleemails.append(hootdata.EMAILS[person])
     template_values['customspeopleemails'] = customspeopleemails
