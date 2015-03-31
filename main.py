@@ -27,22 +27,6 @@ class HootHandler(webapp2.RequestHandler):
     else:
         template_values['name'] = self.request.get('name')
 
-    '''
-    #bestbuy
-    allstuffs = urllib2.urlopen('http://api.remix.bestbuy.com/v1/stores(area(19010,50))?format=json&apiKey=ucys5jzk78w4hjd6rsdfge24')
-    allstuff = allstuffs.read()
-    store = json.loads(allstuff)
-
-    storeids = []
-    storenames = []
-    for store_ in store.get('stores'):
-        storeids.append(store_.get('storeId'))
-        storenames.append(store_.get('name'))
-
-    template_values['storeids'] = storeids
-    template_values['storenames'] = storenames
-    '''
-
     customspeople = []
     customspeopleemails = []
     customspeoplerooms = []
