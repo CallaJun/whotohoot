@@ -14,8 +14,6 @@
 </style>
 <body>
 
-<!--http://stackoverflow.com/questions/10903395/bootstrap-modal-form-with-next-previous-buttons-->
-
 	<!--Trigger button-->
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Hoot!</button>
 	
@@ -31,17 +29,20 @@
 				        <div class="form-group">
 				        	<label for="name" class="control-label">Name:</label>
 				        	<input type="text" class="form-control" id="name">
+				        	<input type="hidden" name="name" value=>
 				        </div>
 			        </form>
 			    </div>
 			    
 			    <div class="modal-footer">
 			    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			    	<button type="button" class="btn btn-primary">Send message</button>
+			    	<button type="submit" data-dismiss="modal" class="btn btn-primary">Who to hoot?</button>
 			    </div>
 		    </div>
 		</div>
 	</div>
+
+	Name: {{name}}
 
 </body>
 <script>

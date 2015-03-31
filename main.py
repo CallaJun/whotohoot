@@ -14,6 +14,12 @@ class HomeHandler(webapp2.RequestHandler):
     def get(self):
     	template_values = {
         }
+
+        if self.request.get('name')=='':
+            template_values['name'] = 'Mawrter'
+        else:
+            template_values['name'] = self.request.get('name')
+
         template = jinja_environment.get_template('views/home.html')
         self.response.out.write(template.render(template_values))
 
