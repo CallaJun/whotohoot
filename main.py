@@ -5,7 +5,6 @@ import os
 import webapp2
 import hootdata
 import urllib2
-import json
 
 jinja_environment = jinja2.Environment(loader=
     jinja2.FileSystemLoader(os.path.dirname(__file__)))
@@ -13,7 +12,9 @@ jinja_environment = jinja2.Environment(loader=
 class HomeHandler(webapp2.RequestHandler):
     def get(self):
     	template_values = {
-            'name' : 'Mawrter'
+            'name' : '',
+            'dorm' : '',
+            'floor' : ''
         }
 
         template = jinja_environment.get_template('views/home.html')
@@ -24,6 +25,8 @@ class HootHandler(webapp2.RequestHandler):
     template_values = {'dorm' : self.request.get('dorm'),
                     	'floor' : self.request.get('floor'),
                     }
+
+    #name
     if self.request.get('name')=='':
         template_values['name'] = 'Mawrter'
     else:

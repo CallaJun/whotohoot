@@ -164,29 +164,21 @@ PEMWEST_C3 = [
 	'Carol Bowe',
 	'Glynn Siobhan'
 ]
-
 #RADNOR
 RADNOR_HA = {
-    '1': 'Lauren Buckheit',
-    '2': 'Amanda Guadalupe',
-    '3': 'Molly MacDougall'
+    '1': 'Taryn Traughber',
+    '2': 'Grace Kim',
+    '3': 'Faatimah Jafiq'
 }
 
 RADNOR_PM = [
-    'Alex Francendese'
+    'Blaire Broad',
+    'Noura Jaber'
 ]
 
-RADNOR_C1 = [
-]
-
-RADNOR_C2 = [
-    'Abbie Sullivan',
-    'Bridget Murray'
-]
-
-RADNOR_C3 = [
-    'Ajiboye Tosin',
-    'Alexa Gjonca'
+RADNOR_C = [
+    'Jasmine Rangel',
+    'Jess Bernal'
 ]
 #RHOADSSOUTH
 RHOADSSOUTH_HA = {

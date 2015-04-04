@@ -5,18 +5,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-<style>
-#logo2 {
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-}
-</style>
 <body>
-
 	<!--Trigger button-->
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Hoot!</button>
-	
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
 		    <div class="modal-content">
@@ -29,6 +20,29 @@
 				    <div class="form-group">
 				        Name:
 				        <input type="text" class="form-control" name="name"></label></p>
+
+				        Dorm:
+				        <select class="form-control" name="dorm">
+        					<option value="Brecon">Brecon</option>
+        					<option value="Denbigh">Denbigh</option>
+        					<option value="Denbigh">Haffner</option>
+        					<option value="Erdman">Erdman</option>
+        					<option value="Merion">Merion</option>
+        					<option value="Pembroke East">Pembroke East</option>
+        					<option value="Pembroke West">Pembroke West</option>
+        					<option value="Radnor">Radnor</option>
+        					<option value="Rhoads South">Rhoads South</option>
+        					<option value="Rockefeller">Rockefeller</option>
+        				</select>
+
+        				Floor:
+        				<select name="floor" class="form-control">
+        					<option value="Basement">Basement</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
 				    </div>
 			    </div>
 			    
@@ -39,9 +53,11 @@
 			    </form>
 		    </div>
 		</div>
-	</div>
+	</div><!--End trigger button and modal-->
 
-	Name: {{name}}
+	{{name}}
+	{{dorm}}
+	{{floor}}
 
 </body>
 <script>
